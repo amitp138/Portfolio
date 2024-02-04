@@ -12,7 +12,7 @@
   z-index: 1;
 }
 .home__data {
-  max-width: 600px;
+  max-width: 70%;
   margin-inline: auto;
   padding-top: 20px;
 }
@@ -37,7 +37,8 @@
 }
 .home__description {
   line-height: 2.125;
-  margin-block: 16px 32px;
+  margin-block: 16px 40px;
+  width: 95%;
 }
 .color__block {
   position: fixed;
@@ -47,4 +48,9 @@
   transform: rotate(-15deg);
   top: -50%;
   left: -83%;
+}
+@media screen and (min-width: 1024px) {
+  .home__description {
+    width: 95%;
+  }
 }

@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home__content">
         <div className="home_data">
           <h1 className="home__title">
-            <span>I'm Steve Milner.</span> Web Designer
+            <span>I'm Amit Pandey.</span> Full Stack Developer
           </h1>
           <p className="home__description">
             I am a dedicated 4th-year Computer Science student, I bring

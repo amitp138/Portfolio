@@ -44,9 +44,9 @@ export const links = [
 
   {
     id: 3,
-    name: "Portfolio",
+    name: "Projects",
     icon: <FaFolderOpen className="nav__icon" />,
-    path: "/portfolio",
+    path: "/projects",
   },
 
   {
@@ -251,7 +251,7 @@ export const skills = [
   },
 ];
 
-export const portfolio = [
+export const project = [
   {
     id: 1,
     img: Work1,

@@ -6,6 +6,7 @@
   width: 100%;
   padding: 60px 30px;
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  z-index: 100;
 }
 .show-menu {
   left: 0;
@@ -17,7 +18,10 @@
   border-bottom: 1px solid var(--border-color);
   padding-block: 14px;
 }
-I .nav_icon,
+.dark-theme.nav__link {
+  border-color: hsl(0, 0%, 20%);
+}
+.nav_icon,
 .nav__name {
   color: var(--title-color);
   font-size: 24px;
@@ -38,6 +42,7 @@ I .nav_icon,
   border-radius: 5px;
   background-color: var(--container-color);
   padding: 12px 10px;
+  z-index: 100;
 }
 .nav__toggle span {
   display: block;
@@ -69,6 +74,7 @@ I .nav_icon,
     right: 30px;
     display: flex;
     align-items: center;
+    z-index: 100;
   }
   .nav__item {
     margin-block: 20px;
@@ -82,7 +88,8 @@ I .nav_icon,
     border-radius: 50%;
     position: relative;
   }
-  .nav__icon{
+
+  .nav__icon {
     font-size: 20px;
     margin-inline: auto;
   }
@@ -101,20 +108,20 @@ I .nav_icon,
     visibility: hidden;
     z-index: -1;
     transition: all 0.3s ease;
-    }
-    .nav__link:hover .nav__name{
-      right: 30px;
-      color: var(--text-white);
-      opacity: 1;
-      visibility: visible;
-      border-radius: 30px 0 0 30px;
-    }
-    .nav__link:hover,
-    .active-nav {
-    background-color: var(--first-color);
-    }
-    .nav__link:hover .nav__icon,
-    .active-nav .nav__icon {
+  }
+  .nav__link:hover .nav__name {
+    right: 30px;
     color: var(--text-white);
-    }
+    opacity: 1;
+    visibility: visible;
+    border-radius: 30px 0 0 30px;
+  }
+  .nav__link:hover,
+  .active-nav {
+    background-color: var(--first-color);
+  }
+  .nav__link:hover .nav__icon,
+  .active-nav .nav__icon {
+    color: var(--text-white);
+  }
 }
