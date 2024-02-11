@@ -25,6 +25,7 @@
 }
 .contact__info .info__title {
   font-size: var(--small-font-size);
+  color: var(--title-color);
 }
 .contact__info .info__desc {
   font-family: var(--body-font);
@@ -67,6 +68,9 @@
   border-radius: 30px;
   font-size: var(--small-font-size);
   transition: all 0.3s ease;
+}
+.form__control::placeholder{
+  color: var(--title-color);
 }
 .form_control:focus {
   border-color: var(--first-color);

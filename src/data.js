@@ -113,7 +113,7 @@ export const personalInfo = [
   // },
 
   {
-    id: 10,
+    id: 9,
     title: "Langauges : ",
     description: "Hindi, English",
   },
@@ -137,12 +137,6 @@ export const stats = [
     no: "2+",
     title: "Happy <br /> Customers",
   },
-
-  // {
-  //   id: 4,
-  //   no: "53+",
-  //   title: " Awards <br /> Won",
-  // },
 ];
 
 export const resume = [
@@ -178,7 +172,7 @@ export const resume = [
     category: "education",
     icon: <FaGraduationCap />,
     year: "2018",
-    title: "10-SSC <span> S. </span>",
+    title: "10-SSC <span> S.G.M.V </span>",
     desc: "Achieved 88.60%, displaying excellence in academics and dedication",
   },
 
@@ -305,7 +299,7 @@ export const project = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "<a href='https://www.ferrypal.com/' target='_blank'>Ferrypal</a>",
+        desc: "<a href='https://www.ferrypal.com/' target='_blank'  rel='noreferrer'>Ferrypal</a>",
       },
     ],
   },
@@ -333,7 +327,7 @@ export const project = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "<a href='https://trendbud.vercel.app/' target='_blank'>Trendbud</a>",
+        desc: "<a href='https://trendbud.vercel.app/' target='_blank' rel='noreferrer'>Trendbud</a>",
       },
     ],
   },
@@ -361,7 +355,7 @@ export const project = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "<a href='https://amitp138.github.io/Box-Office-App/' target='_blank'>Box_ffice</a>",
+        desc: "<a href='https://amitp138.github.io/Box-Office-App/' target='_blank' rel='noreferrer'>Box_ffice</a>",
       },
     ],
   },
@@ -389,7 +383,7 @@ export const project = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "<a href='https://crypto-bazinga.netlify.app/' target='_blank'>Cryto Bazinga</a>",
+        desc: "<a href='https://crypto-bazinga.netlify.app/' target='_blank' rel='noreferrer'>Cryto Bazinga</a>",
       },
     ],
   },
@@ -413,7 +407,7 @@ export const project = [
       },
       {
         title: "Preview : ",
-        desc: "<a href='https://icarus23.netlify.app/' target='_blank'>ICARUS</a>",
+        desc: "<a href='https://icarus23.netlify.app/' target='_blank' rel='noreferrer'>ICARUS</a>",
       },
     ],
   },
@@ -441,7 +435,7 @@ export const project = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "<a href='https://oishikitchen.myferrypal.com/' target='_blank'>Oishi Kitchen</a>",
+        desc: "<a href='https://oishikitchen.myferrypal.com/' target='_blank' rel='noreferrer'>Oishi Kitchen</a>",
       },
     ],
   },
