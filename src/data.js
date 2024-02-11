@@ -9,12 +9,12 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpeg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import Work1 from "./assets/project-1.png";
+import Work2 from "./assets/project-2.png";
+import Work3 from "./assets/project-3.png";
+import Work4 from "./assets/project-4.png";
+import Work5 from "./assets/project-5.png";
+import Work6 from "./assets/project-6.png";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: "First Name : ",
-    description: "Steve",
+    description: "Amit",
   },
 
   {
     id: 2,
     title: "Last Name : ",
-    description: "Milner",
+    description: "Pandey",
   },
 
   {
     id: 3,
     title: "Age : ",
-    description: "27 Years",
+    description: "21 Years",
   },
 
   {
     id: 4,
     title: "Nationality : ",
-    description: "Tunisian",
+    description: "Indian",
   },
 
   {
@@ -91,58 +91,58 @@ export const personalInfo = [
   {
     id: 6,
     title: "Address : ",
-    description: "Tunis",
+    description: "Mumbai",
   },
 
   {
     id: 7,
     title: "Phone : ",
-    description: "+21621184010",
+    description: "+91 7666437162",
   },
 
   {
     id: 8,
     title: "Email : ",
-    description: "you@mail.com",
+    description: "amitpande1008@gmail",
   },
 
-  {
-    id: 9,
-    title: "Skype : ",
-    description: "steve.milner",
-  },
+  // {
+  //   id: 9,
+  //   title: "Skype : ",
+  //   description: "",
+  // },
 
   {
     id: 10,
-    title: "Langages : ",
-    description: "French, English",
+    title: "Langauges : ",
+    description: "Hindi, English",
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: "12+",
+    no: "1+",
     title: "Years of <br /> Experience",
   },
 
   {
     id: 2,
-    no: "97+",
+    no: "5+",
     title: "Completed <br /> Projects",
   },
 
   {
     id: 3,
-    no: "81+",
+    no: "2+",
     title: "Happy <br /> Customers",
   },
 
-  {
-    id: 4,
-    no: "53+",
-    title: " Awards <br /> Won",
-  },
+  // {
+  //   id: 4,
+  //   no: "53+",
+  //   title: " Awards <br /> Won",
+  // },
 ];
 
 export const resume = [
@@ -150,61 +150,61 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2018 - PRESENT",
-    title: "Web Developer <span> Envato </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,",
+    year: "2023-8 Months ",
+    title: " Junior Web Developer <span> Ferrypal Pvt Ltd.</span>",
+    desc: "As a Junior Web Developer at Ferrypal Pvt Ltd, contributed to affordable digital solutions for local businesses, empowering them in the digital space",
   },
 
   {
     id: 2,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2013 - 2018",
-    title: "UI/UX Designer <span> Themeforest </span>",
-    desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt",
+    year: "2022-October",
+    title: "HacktoberFest <span> Open Source </span>",
+    desc: "participated in HacktoberFest(Open source month of October), contributing to 3 web dev projects.",
   },
 
   {
     id: 3,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2005 - 2013",
-    title: "Consultant <span> Videohive </span>",
-    desc: "Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt",
+    year: "2022 ",
+    title: "Web Developer <span> SOS TECH Inc. </span>",
+    desc: "At SOS TECH Inc, engaged in diverse digital services, including website development, UI/UX design, and social media marketing",
   },
 
   {
     id: 4,
     category: "education",
     icon: <FaGraduationCap />,
-    year: "2015",
-    title: "Engineering Degree <span> Oxford University </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore",
+    year: "2018",
+    title: "10-SSC <span> S. </span>",
+    desc: "Achieved 88.60%, displaying excellence in academics and dedication",
   },
 
   {
     id: 5,
     category: "education",
     icon: <FaGraduationCap />,
-    year: "2012",
-    title: "Master Degree <span> KIEV University </span>",
-    desc: "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt",
+    year: "2020",
+    title: "12-HSC <span> Ramniranjan Jhunjhunwala</span>",
+    desc: "Secured 77.54%, showcasing consistent performance and commitment to learning",
   },
 
   {
     id: 6,
     category: "education",
     icon: <FaGraduationCap />,
-    year: "2009",
-    title: "Bachelor Degree <span> Tunis High School </span>",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore",
+    year: "2024",
+    title: "Bachelor Degree <span> MCT's R.G.I.T</span>",
+    desc: "Earned 9.1 CGPA, reflecting proficiency and passion in computer science and engineering",
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: "Html",
+    title: "ReactJs",
     percentage: "25",
   },
 
@@ -222,31 +222,61 @@ export const skills = [
 
   {
     id: 4,
-    title: "Php",
+    title: "Git",
     percentage: "66",
   },
 
   {
     id: 5,
-    title: "Wordpress",
+    title: "Github",
     percentage: "95",
   },
 
   {
     id: 6,
-    title: "Jquery",
+    title: "NodeJS",
     percentage: "50",
   },
 
   {
     id: 7,
-    title: "Angular",
+    title: "MySQL",
     percentage: "65",
   },
 
   {
     id: 8,
-    title: "React",
+    title: "Html",
+    percentage: "45",
+  },
+  {
+    id: 9,
+    title: "Firebase",
+    percentage: "45",
+  },
+  {
+    id: 10,
+    title: "Bootstrap",
+    percentage: "45",
+  },
+  {
+    id: 11,
+    title: "C++",
+    percentage: "45",
+  },
+  {
+    id: 12,
+    title: "OOPS",
+    percentage: "45",
+  },
+  {
+    id: 13,
+    title: "Dsa",
+    percentage: "45",
+  },
+  {
+    id: 14,
+    title: "Redux",
     percentage: "45",
   },
 ];
@@ -255,27 +285,27 @@ export const project = [
   {
     id: 1,
     img: Work1,
-    title: "Photo Editing",
+    title: "Ferrypal (Internship)",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: " Internship Project",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Ferrypal",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "Reactjs,Firebase,bootstrap ",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "<a href='https://www.ferrypal.com/' target='_blank'>Ferrypal</a>",
       },
     ],
   },
@@ -283,7 +313,7 @@ export const project = [
   {
     id: 2,
     img: Work2,
-    title: "Website Design",
+    title: "TrendBud",
     details: [
       {
         icon: <FiFileText />,
@@ -293,7 +323,7 @@ export const project = [
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Personal",
       },
       {
         icon: <FaCode />,
@@ -303,7 +333,7 @@ export const project = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "<a href='https://trendbud.vercel.app/' target='_blank'>Trendbud</a>",
       },
     ],
   },
@@ -311,27 +341,27 @@ export const project = [
   {
     id: 3,
     img: Work3,
-    title: "Video Editing",
+    title: "Box Office App",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "Webite",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Personal",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "React,js,css",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "<a href='https://amitp138.github.io/Box-Office-App/' target='_blank'>Box_ffice</a>",
       },
     ],
   },
@@ -339,27 +369,27 @@ export const project = [
   {
     id: 4,
     img: Work4,
-    title: "Video Editing",
+    title: "Cryto Bazinga",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "WebSite",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Personal",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "React js ,Tailwind",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "<a href='https://crypto-bazinga.netlify.app/' target='_blank'>Cryto Bazinga</a>",
       },
     ],
   },
@@ -367,7 +397,7 @@ export const project = [
   {
     id: 5,
     img: Work5,
-    title: "Landing Page",
+    title: "ICARUS",
     details: [
       {
         title: "Project : ",
@@ -375,15 +405,15 @@ export const project = [
       },
       {
         title: "Client : ",
-        desc: "Dribble",
+        desc: "ICARUS",
       },
       {
         title: "Language : ",
-        desc: "React JS, Node JS",
+        desc: "React JS",
       },
       {
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "<a href='https://icarus23.netlify.app/' target='_blank'>ICARUS</a>",
       },
     ],
   },
@@ -391,27 +421,27 @@ export const project = [
   {
     id: 6,
     img: Work6,
-    title: "Photo Editing",
+    title: "Oishi Kitchen",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Website",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Oishi Kitchen",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Photoshop",
+        desc: "Reat js , bootstrap",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dibble.com",
+        desc: "<a href='https://oishikitchen.myferrypal.com/' target='_blank'>Oishi Kitchen</a>",
       },
     ],
   },

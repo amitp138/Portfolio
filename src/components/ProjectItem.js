@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Close from "../assets/close.svg";
+import parse from "html-react-parser";
 const ProjectItem = ({ img, title, details }) => {
   const [modal, setModal] = useState(false);
   const toggleModal = () => {
@@ -28,7 +29,7 @@ const ProjectItem = ({ img, title, details }) => {
                     <span className="item__icon">{icon}</span>
                     <div>
                       <span className="item__title">{title}</span>
-                      <span className="item__details"> {desc}</span>
+                      <span className="item__details">{parse(desc)}</span>
                     </div>
                   </li>
                 );
