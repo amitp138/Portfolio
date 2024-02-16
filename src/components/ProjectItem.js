@@ -8,7 +8,7 @@ const ProjectItem = ({ img, title, details }) => {
   };
   return (
     <div className="portfolio__item">
-      <img src={img} alt="" className="portfolio__img" />
+     <img src={img} alt="" className="portfolio__img" />
       <div className="portfolio__hover" onClick={toggleModal}>
         <h3 className="portfolio__title">{title}</h3>
       </div>
@@ -16,6 +16,7 @@ const ProjectItem = ({ img, title, details }) => {
         <div className="portfolio__modal">
           <div className="portfolio__modal-content">
             <img
+
               src={Close}
               alt=""
               className="modal__close"

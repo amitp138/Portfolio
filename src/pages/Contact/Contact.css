@@ -83,3 +83,17 @@
   font-size: var(--h3-font-size);
   line-height: 64px;
 }
+@media screen and (max-width: 576px) {
+
+
+  .button {
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+  }
+  
+ 
+  .button__icon {
+    margin-left: 5px;
+  }
+  
+}

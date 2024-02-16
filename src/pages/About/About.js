@@ -9,7 +9,7 @@ import { resume } from "../../data";
 import ResumeItem from "../../components/ResumeItem";
 const About = () => {
   return (
-    <main className="section container">
+    <main className="section container ">
       <section className="about">
         <h2 className="section__title">
           About <span>Me</span>

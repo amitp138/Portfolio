@@ -151,6 +151,10 @@
 }
 
 @media screen and (max-width: 576px) {
+  .about__container {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: flex-start;
+  }
   .nav__toggle {
     top: 20px;
     right: 15px;
@@ -197,18 +201,19 @@
   }
 }
 @media screen and (max-width: 450px) {
-  
   .home__content {
     margin-block: auto;
     text-align: left;
   }
+
   .home_title {
     font-size: var(--h1-font-size);
   }
   .home__description {
     text-align: justify;
-    
-  }
+    width: 100%;
+}
+  
   .info_title {
     display: block;
     margin-bottom: 4px;
